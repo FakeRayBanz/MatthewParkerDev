@@ -4,8 +4,28 @@
     box-sizing: border-box;
 }
 
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 16px;
+}
+
 body {
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(41, 41, 41);
 }
 
 header {
@@ -13,12 +33,12 @@ header {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    background-color: #7a6b26;
+    background-color: #1b078f;
     flex-direction: row;
 }
 
 .title {
-    color: red;
+    color: rgb(0, 183, 255);
     font-size: 32px;
     font-weight: 700;
     text-decoration: underline;
@@ -36,6 +56,24 @@ header {
     margin: 10px;
     animation: scale-up 1000ms ease-in-out;
 }
+
+#testLink {
+    color: #e6e95a;
+}
+
+#testLink:hover {
+    color: #e6e95a;
+}
+
+#button {
+    margin: 15px;
+    padding: 5px;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
 
 @keyframes scale-up {
     0% {
