@@ -14,6 +14,7 @@ header {
     align-items: center;
     gap: 32px;
     background-color: #7a6b26;
+    flex-direction: row;
 }
 
 .title {
@@ -33,5 +34,14 @@ header {
     border-radius: 100%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 10px;
+    animation: scale-up 1000ms ease-in-out;
 }
 
+@keyframes scale-up {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
