@@ -13,7 +13,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 main {
@@ -54,6 +54,7 @@ nav {
     display: flex;
     color: rgb(255, 255, 255);
     font-size: 18px;
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     padding-right: 35px;
 }
