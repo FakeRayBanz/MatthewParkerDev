@@ -4,5 +4,5 @@ console.log(button)
 
 
 button.addEventListener('click', () => {
-    alert("MATT IS A GOAT")
+    alert("This is a test popup")
 })
